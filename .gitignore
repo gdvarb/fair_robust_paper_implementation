@@ -1,0 +1,8 @@
+# ignore files
+fair_ml_paper_implementation.ipynb
+fair_env/
+.ipynb_checkpoints/
+
+# ignore data directory
+hannxu123_fair_robust/fair_robust/data/
+hannxu123_fair_robust/fair_robust/hot_start.pt
