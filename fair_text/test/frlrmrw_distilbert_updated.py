@@ -347,7 +347,7 @@ def main():
     model.save_pretrained('frlrmrw_distilbert_model')
     print('Final model saved successfully.')
     
-    np.savetxt('Report2_frlrmrw_test_distilbert.txt', np.array(results_test))
+    np.savetxt('results_frlrmrw_test_distilbert.txt', np.array(results_test))
     
     # Final evaluation
     print("\nFinal evaluation:")
